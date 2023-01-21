@@ -1,0 +1,336 @@
+:root {
+/* Font */
+--maine-fonts: 'Roboto', sans-serif;
+--secondary-fonts: 'Raleway', sans-serif;
+
+
+/* Text color */
+--ctas-focusedActive-statesLink:#4D5AE5;
+--ctas: #404BBF;
+--dark:#2E2F42;
+--success:#31D0AA;
+--success-75:rgba(49, 208, 170, 0.75);
+--success-50:rgb(49, 208, 170, 0.50);
+--success-10:rgb(49, 208, 170, 0.10);
+--white:#FFFFFF;
+--text:#434455;
+--subtle-Text:#8E8F99;
+--accent:#E7E9FC;
+--light:#F4F4FD;
+--modal-overlay:#2E2F42;
+
+/* Background colors */
+--hero-background:#2E2F42;
+--background-blue:#404BBF;
+--background-light:#F4F4FD;
+--background-white:#FFFFFF;
+--background-dark:#2E2F42;
+/*  Other */
+
+}
+
+.body{
+font-family: var(--maine-fonts);
+color: var(--text);
+}
+
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 40px;
+    Line-height: 95%;
+    Align: Center;
+    color: var(--modal-overlay);
+}
+
+.title3{
+    font-family: 'Roboto', sans-serif;
+    Font-style: Medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color:var(--modal-overlay);
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--text);
+}
+
+/* Header */
+.header-page{
+}
+
+.navigation{
+
+ }
+
+.logotype{
+    color: var(--ctas-focusedActive-statesLink);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+ }
+
+ .logo-header{
+    color:var(--dark);
+ }
+
+.logo-footer{
+    color:var(--light);
+}
+
+.menu{
+
+ }
+
+.menu-item{
+
+ }
+ .menu-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;    
+    letter-spacing: 0.02em;
+    color:var(--modal-overlay);
+    text-decoration: none
+ }
+ .menu-link:hover,
+ .menu-link:focus{
+    color:var(--ctas);
+ }
+ /* contacts */
+.tel{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:currentColor;
+}
+.tel:hover,
+.tel:focus{
+    color:var(--ctas-focusedActive-statesLink);
+}
+
+.mail{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--text);
+ }
+
+.mail:hover,
+.mail:focus{
+    color:var(--ctas-focusedActive-statesLink);
+}
+
+ /* maine */
+.maine{
+
+ }
+
+ /* hero section */
+.hero{
+    background:var(--hero-background);
+ }
+.motto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--white)
+
+ }
+
+.modal-btb{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:var(--white);
+    background:var(--ctas-focusedActive-statesLink);
+    cursor: pointer;
+ }
+ .modal-btb:hover,
+ .modal-btb:focus{
+    background:var(--background-blue);
+ }
+
+
+ /* page 1*/
+.information{
+
+ }
+
+.future{
+    Width:264px;
+    height:104px;
+    Top: 792px;
+    Left: 156px;
+    Gap: 8px;
+ }
+
+.quality{
+  
+ }
+
+.text-future{
+
+ }
+
+ /* What are we doing */
+.doing{
+    
+}
+
+.title-do{
+
+ }
+.picture-title{
+
+ }
+
+.foto-title{
+
+ }
+
+/* Our Team */
+.our-team{
+    background:var(--background-light);
+}
+.our{
+ 
+ }
+
+.team{
+
+ }
+
+ .team-list{
+    background:var(--background-white);
+ }
+
+.avatar{
+
+ }
+
+.name{
+   
+ }
+
+.position{
+
+}
+
+
+/* footer */
+
+.footer{
+    background:var(--background-dark);
+}
+
+.details{
+    color:var(--accent);
+}
+
+/* Portfolio */
+
+/* Main portfolio */
+
+.main-portfolio{
+
+}
+
+.maine-navigation{
+
+}
+ 
+.list-portfolio{
+}
+
+ 
+.list-portfolio {
+ 
+}
+
+.btn{
+    
+}
+
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--ctas-focusedActive-statesLink);
+    background:var(--success-10);
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover,
+.button:focus{
+color:var(--white) ;
+background-color:var(--background-blue) ;
+}
+
+
+
+/* Gallery */
+
+.gallery-list{
+
+}
+
+.section-one{
+
+}
+
+.section-two{
+
+}
+
+.section-three{
+
+}
+
+
+
+.foto{
+
+}
+
+.subtitle{
+  
+}
+
+.text-gallery{
+
+    
+}
