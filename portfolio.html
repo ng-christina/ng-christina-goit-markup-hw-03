@@ -9,60 +9,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" 
     rel="stylesheet">
+     <!--modern-normalize -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="body">
     <!--HEADER -->
     <header class="header-page">
-        <!--Logo-->
-        <a class="logotype link" href="./index.html">WEB<span class="logo-header">STUDIO</span> </a>
-        <nav class="navigation">
-            <!--Menu Nuv-->
-            <ul class="menu list">
-                <li class="menu-item link">
-                   <a class="menu-link" href="./index.html">Studio</a>
-                </li>
-                <li class="menu-item link">
-                   <a class="menu-link" href="./portfolio.html">Portfolio</a> 
-                </li>
-                <li class="menu-item link">
-                    <a class="menu-link" href="">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-           <!--Contacts-->
-           <ul class="contacts list">
-            <li>
-               <a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com </a>
-            </li>
-            <li>
-                <a class="tel link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11 </a>
-            </li>
-        </ul>
+        <div class="container">
+           <!--Logo-->
+           <a class="logotype link" href="./index.html">WEB<span class="logo-header">STUDIO</span> </a>
+           <nav class="navigation">
+               <!--Menu Nuv-->
+               <ul class="menu list">
+                   <li class="menu-item link">
+                      <a class="menu-link" href="./index.html">Studio</a>
+                   </li>
+                   <li class="menu-item link">
+                      <a class="menu-link" href="./portfolio.html">Portfolio</a> 
+                   </li>
+                   <li class="menu-item link">
+                       <a class="menu-link" href="">Contacts</a>
+                   </li>
+               </ul>
+           </nav>
+                 <!--Contacts-->
+              <ul class="contacts list">
+                 <li class="contacts-item">
+                     <a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com </a>
+                 </li>
+                 <li class="contacts-item">
+                     <a class="tel link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11 </a>
+                 </li>
+             </ul>
+        </div>
     </header>
     <!--Main portfolio-->
     <main class="main-portfolio">
         <section class="maine-navigation">
-            <h2 class="title"></h2>
-             <ul class="list-portfolio list">
-                 <li class="btn">
-                     <button class="button" type="button">All</button>
-                 </li>
-                 <li class="btn">
-                     <button class="button" type="button">Web Site</button>
-                 </li>
-                 <li class="btn">
-                     <button class="button" type="button">App</button>
-                 </li>
-                 <li class="btn">
-                     <button class="button" type="button">Design</button>
-                 </li>
-                 <li class="btn">
-                     <button class="button" type="button">Marketing</button>
-                 </li>
-                 
-             </ul>
+            <div class="container">
+                 <h2 class="title"></h2>
+                  <ul class="list-portfolio list">
+                      <li class="btn">
+                          <button class="button" type="button">All</button>
+                      </li>
+                      <li class="btn">
+                          <button class="button" type="button">Web Site</button>
+                      </li>
+                      <li class="btn">
+                          <button class="button" type="button">App</button>
+                      </li>
+                      <li class="btn">
+                          <button class="button" type="button">Design</button>
+                      </li>
+                      <li class="btn">
+                          <button class="button" type="button">Marketing</button>
+                      </li>
+                  </ul>
+            </div>
              <!--Gallery-->
+             <div class="container">
              <ul class="gallery-list list">
                  <li class="section-one">
                      <img class="foto" src="./images/Gallery/project.jpg" alt="Banking App Interface Concept"
@@ -119,6 +125,7 @@
                      <p class="text-gallery text">Web Site</p>
                  </li>
               </ul>
+            </div>
          </section>
 
     </main>
