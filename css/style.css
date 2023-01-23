@@ -116,6 +116,10 @@ img{
     color:var(--text);
 }
 
+.flex-list{
+    display: flex;
+}
+
 /* Header */
 .header-page{
     outline: 1px #E7E9FC;
@@ -125,8 +129,7 @@ img{
 }
 
 .navigation{
-    display: inline-block;
-    
+ 
  }
 
 .logotype{
@@ -152,14 +155,19 @@ img{
 }
 
 .menu{
-  margin-right: 332px;
+    width: 261px;
+ margin-right: 332px;
  }
 
 .menu-item:not(:last-child){
+   margin-right: 40px;
     margin-right: 40px;  
+   margin-right: 40px;
+    margin-right: 40px;  
+   margin-right: 40px;
  }
  .menu-item{
-  display: inline-block;
+ 
  }
 
 
@@ -183,7 +191,7 @@ img{
 }
 
 .contacts-item{
-    display: inline-block;
+   
 
 }
 
@@ -191,6 +199,7 @@ img{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    width: 151px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:currentColor;
@@ -210,7 +219,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--text);
-    margin-right: 40px;
+    padding-right: 40px;
  }
 
 .mail:hover,
@@ -268,24 +277,20 @@ img{
 padding-bottom: 0px;
 
  }
-.list-future{
-    display: inline;
-}
+
 .future{
-    display: inline-block;
-    Width: 264px;
-    margin-right: 24px;
+   width: 264px;
  }
 
- .future:last-child{
-  margin-right: -24px;
+ .future:not(:last-child){
+  margin-right: 24px;
  }
 .quality{
-  margin-bottom: 8px;
+  padding-bottom: 8px;
  }
 
 .text-future{
-     width: 264px;
+    
  }
 
  /* What are we doing */
@@ -308,13 +313,11 @@ width: 1158px;
   
  }
 
- .picture-list{
-    display: inline-block;
-    width: 360px;
-    margin-right: 24px;
+ .picture-list:not(:last-child){
+margin-right: 24px;
 }
 .picture-list:last-child{
-    margin-right: -24px;
+
 
 }
 
@@ -337,12 +340,6 @@ width: 1158px;
 .team{
 
 }
-
-.flex-list{
-display: flex;
-}
-
-
 
  .team-list{
    width: 264px;
@@ -395,20 +392,23 @@ padding-bottom: 16px;
 /* Main portfolio */
 
 .main-portfolio{
-
-}
-
-.maine-navigation{
-
-}
- 
-.list-portfolio{
    
 }
 
+.maine-navigation{
+  
+}
+ 
+.list-portfolio{
+    justify-content: center
 
+}
 .btn{
-    display: inline-block;
+  padding-bottom: 72px;
+}
+
+.btn:not(:last-child){
+margin-right: 24px;
 }
 
 .button{
@@ -433,7 +433,10 @@ color:var(--white) ;
 background-color:var(--background-blue) ;
 }
 
-
+.text-btn{
+  
+   margin: 12px 24px;
+}
 
 /* Gallery */
 
