@@ -22,6 +22,8 @@
 --background-light:#F4F4FD;
 --background-white:#FFFFFF;
 --background-dark:#2E2F42;
+/*others*/
+--radius: 4px;
 }
 
 .body{
@@ -93,6 +95,7 @@ img{
     Line-height: 95%;
     text-align: Center;
     color: var(--modal-overlay);
+    
 }
 
 .title3{
@@ -149,16 +152,17 @@ img{
 }
 
 .menu{
-  margin-right: 315px;
+  margin-right: 332px;
  }
 
-.menu-item{
-    display: inline-block;
-    margin-right: 40px;
+.menu-item:not(:last-child){
+    margin-right: 40px;  
  }
- .menu-i{
-    margin-right: 0px;
+ .menu-item{
+  display: inline-block;
  }
+
+
  .menu-link{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -175,8 +179,7 @@ img{
  /* contacts */
 
 .contacts{
-
-    display: inline-block;
+    
 }
 
 .contacts-item{
@@ -208,7 +211,6 @@ img{
     letter-spacing: 0.02em;
     color:var(--text);
     margin-right: 40px;
-  
  }
 
 .mail:hover,
@@ -234,11 +236,15 @@ img{
     margin-left: auto;
     width: 496px;
     letter-spacing: 0.02em;
-    color:var(--white)
+    color:var(--white);
+    margin-bottom: 48px;
 
  }
 
 .modal-btb{
+    padding: 15px 31px;
+    border-radius:var(--radius);
+
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -249,8 +255,6 @@ img{
     color:var(--white);
     background:var(--ctas-focusedActive-statesLink);
     cursor: pointer;
-    Width: 169px;
-    min-height: 56;
  }
  .modal-btb:hover,
  .modal-btb:focus{
@@ -271,11 +275,9 @@ padding-bottom: 0px;
     display: inline-block;
     Width: 264px;
     margin-right: 24px;
-   
-    
  }
 
- .ft{
+ .future:last-child{
   margin-right: -24px;
  }
 .quality{
@@ -306,54 +308,57 @@ width: 1158px;
   
  }
 
-
  .picture-list{
     display: inline-block;
-    
- }
-
-.foto-title{
+    width: 360px;
     margin-right: 24px;
- }
- .ft-ttl{
+}
+.picture-list:last-child{
     margin-right: -24px;
 
- }
+}
+
+.foto-title{
+
+}
+
 
 /* Our Team */
 .our-team{
-
     background:var(--background-light);
 }
 
-.ourteam{
-
+.our-div{
 }
 .our{
-
+  margin-bottom: 72px;
  }
 
 .team{
 
-
 }
 
+.flex-list{
+display: flex;
+}
+
+
+
  .team-list{
-    display: inline-block;
-    width: 264px;
-    margin-right: 24px;
+   width: 264px;
     background:var(--background-white);
+    margin-right: 24px;
  }
 
- .tl{
- margin-right: -24px;
+ .team-list:last-child{
+    margin-right: 0;
  }
 .avatar{
 
  }
 
 .name{
-    text-align: center;
+text-align: center;
    
  }
 
@@ -367,9 +372,21 @@ width: 1158px;
 
 .footer{
     background:var(--background-dark);
+    padding-top: 100px;
 }
 
+.link-footer{
+padding-bottom: 16px;
+}
+
+.div-footer{
+
+}
+
+
 .details{
+    width: 264px;
+    padding-bottom: 100px;
     color:var(--accent);
 }
 
@@ -407,6 +424,7 @@ width: 1158px;
     background:var(--success-10);
     cursor: pointer;
     border: none;
+    border-radius: var(--radius);
 }
 
 .button:hover,
