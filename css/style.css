@@ -37,9 +37,6 @@ color: var(--text);
     padding-right: 15px;;
     margin-left: auto;
     margin-right: auto;
-
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 /* reset start */
 h1,
@@ -287,7 +284,7 @@ gap: 24px;
 
 .future{
   flex-basis: calc((100% - (24px * 3)) / 4);
-   outline: 2px solid #31D0AA;   
+    
  }
 
 .quality{
@@ -361,8 +358,8 @@ gap: 24px;
  }
 
  .text-card{
-    margin-bottom: 32px;
-    margin-top: 32px;
+    padding: 32px 16px;
+    
  }
 .name{
 text-align: center;
@@ -375,27 +372,30 @@ text-align: center;
 
 }
 
-
 /* footer */
 
 .footer{
     background:var(--background-dark);
-    padding-top: 100px;
+}
+
+.div-footer{
+padding-top: 100px;
+padding-bottom: 100px;
+
 }
 
 .link-footer{
 padding: 0px;
 margin-bottom: 16px;
-}
-
-.div-footer{
 
 }
+
+
 
 .details{
-    width: 264px;
-    padding-bottom: 100px;
     color:var(--accent);
+    margin-top: 0px;
+    width: 264px;
 }
 
 /* Portfolio */
