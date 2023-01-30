@@ -407,8 +407,12 @@ margin-bottom: 16px;
 }
 
 .maine-navigation{
-
+    padding-top: 96px;
 }
+.div-portfolio{
+    padding-bottom: 72px;
+}
+
  /*
 .list-portfolio{
     display: flex;
