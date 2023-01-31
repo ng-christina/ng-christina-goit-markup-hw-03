@@ -437,7 +437,7 @@ margin-bottom: 16px;
     color: var(--ctas-focusedActive-statesLink);
     background-color: #f4f4fd;
     cursor: pointer;
-    border: none;
+    border: 1px solid var(--accent);
     border-radius: var(--radius);
    
 }
