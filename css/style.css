@@ -88,9 +88,8 @@ img{
 
 .title{
     font-family: 'Roboto', sans-serif;
-    Font-style: Bold;
+    font-weight: bold;
     Font-size: 36px;
-    Line-height: 40px;
     Line-height: 95%;
     text-align: Center;
     color: var(--modal-overlay);
@@ -101,14 +100,12 @@ img{
     font-family: 'Roboto', sans-serif;
     font-size: medium;
     font-weight: 500;
-    font-size: 20px;
     line-height: 1.5;
     color:var(--modal-overlay);
 }
 
 .text{
     font-family: 'Roboto', sans-serif;
-    font-style: 'Regular';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -117,14 +114,13 @@ img{
 }
 
 /* Header */
-.header{
-    outline: 1px solid #E7E9FC;
-    outline-offset: -2px;
-  
+.header{ 
+  border-bottom: 1px solid var(--accent);
 }
 .header-conteiner{
     display: flex;
     align-items: center;
+    
 }
 
 .logotype{
@@ -261,6 +257,7 @@ img{
     background:var(--ctas-focusedActive-statesLink);
     cursor: pointer;
     margin: auto;
+    border: none;
  }
  .modal-btb:hover,
  .modal-btb:focus{
@@ -297,18 +294,13 @@ gap: 24px;
 
  /* What are we doing */
 .doing{
-padding-bottom: 0px;
+
 }
 
 
 .title-do{
-    width: 323px;
-    Font-size: 36px;
-    Line-height: 40px;
-    line-height: 95%;
-    text-align: Center;
-    padding-bottom: 72px;
-    margin: auto;
+    margin-bottom: 72px;
+   
  }
 
  .list-do{
@@ -330,13 +322,15 @@ flex-basis: calc((100% - (24px * 2)) / 3);
 /* Our Team */
 .our-team{
     background:var(--background-light);
+ padding-top: 0px;   
 }
 
 .our-div{
+
 }
 .our{
     padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
  }
 
 .team{
@@ -376,11 +370,12 @@ text-align: center;
 
 .footer{
     background:var(--background-dark);
+    padding-top: 100px;
+    padding-bottom: 100px; 
 }
 
 .div-footer{
-padding-top: 100px;
-padding-bottom: 100px;
+
 
 }
 
@@ -411,10 +406,6 @@ margin-bottom: 16px;
 
 }
 
-.div-portfolio{
-    padding-bottom: 72px;
-}
-
  /*
 .list-portfolio{
     display: flex;
@@ -425,8 +416,8 @@ margin-bottom: 16px;
 .list-portfolio{
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
     gap: 24px;
+    margin-bottom: 72px;
 }
 
 
@@ -437,13 +428,14 @@ margin-bottom: 16px;
 .button{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--ctas-focusedActive-statesLink);
-    background:var(--success-10);
+    background-color: #f4f4fd;
     cursor: pointer;
     border: none;
     border-radius: var(--radius);
@@ -461,11 +453,6 @@ background-color:var(--background-blue) ;
 }
 
 /* Gallery */
-.div-gallery{
-
-
-
-}
 .section-gallery {
 display: flex;
 flex-wrap: wrap;
@@ -479,7 +466,7 @@ flex-basis: calc((100% - (24px * 2)) / 3);
 .portfolio-text{
     border: 1px solid var(--accent);
     border-top: none;
-    padding: 32px 0px;
+    padding: 32px 16px;
     
 }
 
@@ -488,9 +475,9 @@ flex-basis: calc((100% - (24px * 2)) / 3);
 }
 
 .subtitle{
- margin-left: 16px; 
+
 }
 
 .text-gallery{
-margin-left: 16px; 
+
 }
